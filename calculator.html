@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="cal">
+        <p id="title">simple calculator</p>
+        <div id="number1">
+            <label for="num1">num1:</label>
+            <input id="num1" type="number" placeholder="enter the number" style="width:100px">
+        </div>
+        <div id="number2" >
+            <label for="num2">num2:</label>
+            <input id="num2"  type="number" placeholder="enter the number" style="width:100px">
+        </div>
+        <div id="buttons">
+            <div class="button">
+                <button onclick="add()">Sum</button>
+            </div>
+            <div class="button">
+                <button onclick="sub()">Substract</button>
+            </div>
+        </div>
+        <div id='but'>
+            <div class="button">
+                <button onclick="mul()">multiply</button>
+            </div>
+            <div class="button">
+                <button onclick="div()">division</button>
+            </div>
+            
+            
+        
+        </div>
+        <p id="sum">Answer:</p>
+        </div>
+            
+        
+        
+    <script src="calculator.js"></script>
+
+</body>
+
+</html>

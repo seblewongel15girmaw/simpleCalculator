@@ -1,0 +1,59 @@
+div.cal{
+    border: 1px solid black;
+    margin-left: 200px;
+    border-radius: 50px;
+    height: 200px;
+    padding: 40px;
+    margin-right: 400px;
+    width: 200px;
+   
+}
+#number1{
+    margin-top: 10px;
+    font-size: 25px;
+    
+}
+#num1{
+    font-size: 20px;
+}
+#number2{
+    margin-top: 10px;
+    font-size: 25px;
+}
+#num2{
+    font-size: 20px;
+
+}
+.button{
+    margin-left: 10px;
+    /* display: flex; */
+    /* border-radius: 20px; */
+}
+
+#title{
+    font-size: 22px;
+    font-weight: bold;
+    color: gold;
+    margin-top: -10px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+#buttons{
+    display: flex; 
+}
+#but{
+    display: flex;
+}
+
+button{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: gold;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+#sum{
+    font-size: 25px;
+}
